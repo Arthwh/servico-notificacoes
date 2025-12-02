@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cancelamento de Inscrição</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Helvetica, Arial, sans-serif;">
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse; background-color: #ffffff; margin-top: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+        <tr>
+            <td align="center" style="background-color: #1a237e; padding: 20px 0; border-bottom: 4px solid #c5a028;">
+                <h1 style="color: #ffffff; font-family: 'Georgia', serif; margin: 0; font-size: 24px; letter-spacing: 1px;">Inscrição Cancelada!</h1>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 40px 30px; color: #333333; text-align: center;">
+                <h2 style="color: #1a237e; font-family: 'Georgia', serif; margin-top: 0;">Olá, {{ name }}!</h2>
+
+                <p style="font-size: 16px; line-height: 1.5;">Confirmamos que sua inscrição foi cancelada conforme solicitado.</p>
+
+                <table width="100%" cellpadding="15" cellspacing="0" style="background-color: #f9f9f9; border-left: 4px solid #1a237e; margin: 20px 0; text-align: start;">
+                    <tr>
+                        <td>
+                            <p style="margin: 0; font-size: 12px; text-transform: uppercase; color: #999;">Evento</p>
+                            <p style="margin: 5px 0 15px 0; font-size: 18px; font-weight: bold; color: #000;">{{ event }}</p>
+
+                            <p style="margin: 0; font-size: 12px; text-transform: uppercase; color: #999;">Data e Horário</p>
+                            <p style="margin: 5px 0 0 0; font-size: 16px; color: #333;">{{ date }}</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <p style="font-size: 15px; color: #555;">
+                    Caso tenha sido um engano ou mude de ideia, verifique a disponibilidade de vagas em nosso site.
+                </p>
+
+                <p style="margin-top: 30px; font-size: 14px; color: #777;">
+                    Esperamos ver você em uma próxima oportunidade.<br>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" style="background-color: #eeeeee; padding: 15px; font-size: 12px; color: #777;">
+                &copy; 2025 Sistema de Eventos. Todos os direitos reservados.
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

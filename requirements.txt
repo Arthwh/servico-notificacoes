@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+py-eureka-client
+pika
+pydantic[email]
+jinja2

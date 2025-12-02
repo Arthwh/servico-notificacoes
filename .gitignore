@@ -1,0 +1,22 @@
+--- Python ---
+pycache/
+*.py[cod]
+*$py.class
+
+--- Ambientes Virtuais (CRUCIAL) ---
+venv/
+env/
+.venv/
+.env
+
+--- Variáveis de Ambiente e Segredos (SEGURANÇA) ---
+.env
+
+--- IDEs (Configurações do seu editor que não interessam aos outros) ---
+.vscode/
+.idea/
+*.swp
+
+--- Logs ---
+*.log
+logs/
