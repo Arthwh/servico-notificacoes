@@ -1,5 +1,6 @@
 import smtplib
 from email.message import EmailMessage
+from email.utils import formataddr
 from .base import BaseChannel
 from app.core import config
 from app.services import template_manager
@@ -34,7 +35,7 @@ class EmailChannel(BaseChannel):
 
         msg = EmailMessage()
         msg['Subject'] = subject
-        msg['From'] = config.SMTP_FROM_EMAIL
+        msg['From'] = formataddr((config.SMTP_FROM_NAME, config.SMTP_FROM_EMAIL))
         msg['To'] = recipient
 
         #Define o conteúdo como HTML
